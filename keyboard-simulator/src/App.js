@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 // import audioSources from "./components/audio";
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 function App() {
-  document.addEventListener("keydown", function (e) {
+  document.addEventListener('keydown', function (e) {
     if (
       (e.keyCode >= 65 && e.keyCode <= 90) ||
       e.keyCode === 8 ||
@@ -57,11 +57,14 @@ function App() {
       <p>
         <h4 className="noise">Noise-Canceling Headphones are Recommended</h4>
       </p>
+      <p>
+        <input type="text" placeholder="Start Typing Here"></input>
+      </p>
       <p className="footer">
-        Inspired by{" "}
+        Inspired by{' '}
         <a href="https://www.youtube.com/watch?v=P_9vXJZVT54" target="_blank">
           this video
-        </a>{" "}
+        </a>{' '}
         by Glarses
       </p>
     </div>
