@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/keyboardsoundsimulator/precache-manifest.6cf8a6b0a728c3ad9390b91c36682148.js"
+  "/keyboardsoundsimulator/precache-manifest.c46394dd378157f9ab5bcf3d073616c2.js"
 );
 
 self.addEventListener('message', (event) => {
