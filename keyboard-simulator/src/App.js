@@ -3,24 +3,26 @@ import React from 'react';
 
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 function App() {
-  document.addEventListener('keydown', function (e) {
-    if (
-      (e.keyCode >= 65 && e.keyCode <= 90) ||
-      e.keyCode === 8 ||
-      e.keyCode === 32 ||
-      e.keyCode === 13
-    ) {
-      if (!e.repeat) {
-        // Checks to see if key is being held down
-        let sound = document.getElementById(e.keyCode);
-        if (sound.paused) {
-          sound.play();
-        } else {
-          sound.currentTime = 0;
+  document
+    .getElementsByTagName('input')
+    .addEventListener('keydown', function (e) {
+      if (
+        (e.keyCode >= 65 && e.keyCode <= 90) ||
+        e.keyCode === 8 ||
+        e.keyCode === 32 ||
+        e.keyCode === 13
+      ) {
+        if (!e.repeat) {
+          // Checks to see if key is being held down
+          let sound = document.getElementById(e.keyCode);
+          if (sound.paused) {
+            sound.play();
+          } else {
+            sound.currentTime = 0;
+          }
         }
       }
-    }
-  });
+    });
   return (
     <div className="main-app">
       {/* <audioSources /> */}
