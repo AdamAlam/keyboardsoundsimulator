@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfd9123f13133b9e661047f25e6f1a1a",
+    "revision": "3455699fde1e70714f522b3e650a2ad8",
     "url": "/keyboardsoundsimulator/index.html"
   },
   {
