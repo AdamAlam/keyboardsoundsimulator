@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/keyboardsoundsimulator/static/css/main.0a53cc52.chunk.css",
-    "main.js": "/keyboardsoundsimulator/static/js/main.a5b227d4.chunk.js",
-    "main.js.map": "/keyboardsoundsimulator/static/js/main.a5b227d4.chunk.js.map",
+    "main.js": "/keyboardsoundsimulator/static/js/main.be55198d.chunk.js",
+    "main.js.map": "/keyboardsoundsimulator/static/js/main.be55198d.chunk.js.map",
     "runtime-main.js": "/keyboardsoundsimulator/static/js/runtime-main.6652205e.js",
     "runtime-main.js.map": "/keyboardsoundsimulator/static/js/runtime-main.6652205e.js.map",
     "static/js/2.5b17f03d.chunk.js": "/keyboardsoundsimulator/static/js/2.5b17f03d.chunk.js",
     "static/js/2.5b17f03d.chunk.js.map": "/keyboardsoundsimulator/static/js/2.5b17f03d.chunk.js.map",
     "index.html": "/keyboardsoundsimulator/index.html",
-    "precache-manifest.9dbd8fabf725fa71563a20bc8a0e6b58.js": "/keyboardsoundsimulator/precache-manifest.9dbd8fabf725fa71563a20bc8a0e6b58.js",
+    "precache-manifest.84544f6a4ef423bf792636ce3c63b66b.js": "/keyboardsoundsimulator/precache-manifest.84544f6a4ef423bf792636ce3c63b66b.js",
     "service-worker.js": "/keyboardsoundsimulator/service-worker.js",
     "static/css/main.0a53cc52.chunk.css.map": "/keyboardsoundsimulator/static/css/main.0a53cc52.chunk.css.map",
     "static/js/2.5b17f03d.chunk.js.LICENSE.txt": "/keyboardsoundsimulator/static/js/2.5b17f03d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6652205e.js",
     "static/js/2.5b17f03d.chunk.js",
     "static/css/main.0a53cc52.chunk.css",
-    "static/js/main.a5b227d4.chunk.js"
+    "static/js/main.be55198d.chunk.js"
   ]
 }

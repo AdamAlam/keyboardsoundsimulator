@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "811fa6100e49f151501c625b029463e3",
+    "revision": "87ea3f3ab70837161c6735de6d15ee69",
     "url": "/keyboardsoundsimulator/index.html"
   },
   {
-    "revision": "0abdc5be3ea80b680ae6",
+    "revision": "07951c9c9c4f540e4704",
     "url": "/keyboardsoundsimulator/static/css/main.0a53cc52.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/keyboardsoundsimulator/static/js/2.5b17f03d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0abdc5be3ea80b680ae6",
-    "url": "/keyboardsoundsimulator/static/js/main.a5b227d4.chunk.js"
+    "revision": "07951c9c9c4f540e4704",
+    "url": "/keyboardsoundsimulator/static/js/main.be55198d.chunk.js"
   },
   {
     "revision": "046e3074fbdc2b422f8e",
