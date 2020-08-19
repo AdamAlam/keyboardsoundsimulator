@@ -10,11 +10,14 @@ function App() {
       e.keyCode === 32 ||
       e.keyCode === 13
     ) {
-      let sound = document.getElementById(e.keyCode);
-      if (sound.paused) {
-        sound.play();
-      } else {
-        sound.currentTime = 0;
+      if (!e.repeat) {
+        // Checks to see if key is being held down
+        let sound = document.getElementById(e.keyCode);
+        if (sound.paused) {
+          sound.play();
+        } else {
+          sound.currentTime = 0;
+        }
       }
     }
   });
