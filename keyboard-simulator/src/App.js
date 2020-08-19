@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 // import audioSources from "./components/audio";
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
