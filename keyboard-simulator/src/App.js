@@ -1,28 +1,28 @@
 import React from 'react';
-// import audioSources from "./components/audio";
+// import soundPlayer from './components/jsEventListener';
 
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
 function App() {
-  document
-    .getElementsByTagName('input')
-    .addEventListener('keydown', function (e) {
-      if (
-        (e.keyCode >= 65 && e.keyCode <= 90) ||
-        e.keyCode === 8 ||
-        e.keyCode === 32 ||
-        e.keyCode === 13
-      ) {
-        if (!e.repeat) {
-          // Checks to see if key is being held down
-          let sound = document.getElementById(e.keyCode);
-          if (sound.paused) {
-            sound.play();
-          } else {
-            sound.currentTime = 0;
-          }
+  let soundHandler = (e) => {
+    if (
+      (e.keyCode >= 65 && e.keyCode <= 90) ||
+      e.keyCode === 8 ||
+      e.keyCode === 32 ||
+      e.keyCode === 13
+    ) {
+      if (!e.repeat) {
+        // Checks to see if key is being held down
+        let sound = document.getElementById(e.keyCode);
+        if (sound.paused) {
+          sound.play();
+        } else {
+          sound.currentTime = 0;
         }
       }
-    });
+    }
+  };
+
   return (
     <div className="main-app">
       {/* <audioSources /> */}
@@ -63,7 +63,12 @@ function App() {
         <h4 className="noise">Noise-Canceling Headphones are Recommended</h4>
       </p>
       <p>
-        <input type="text" placeholder="Start Typing Here"></input>
+        <input
+          type="text"
+          placeholder="Start Typing Here"
+          id="main-input"
+          onKeyDown={soundHandler}
+        ></input>
       </p>
       <p className="footer">
         Inspired by{' '}
